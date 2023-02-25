@@ -1,8 +1,10 @@
+import LayoutStyled from "./LayoutStyled";
+
 const Layout = (): JSX.Element => {
   return (
-    <header className="main-header">
+    <LayoutStyled className="main-header">
       <h1 className="main-header__title">Antisocial club</h1>
-    </header>
+    </LayoutStyled>
   );
 };
 
