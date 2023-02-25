@@ -5,6 +5,7 @@ const GlobalStyles = createGlobalStyle`
 
 *, ::after, ::before {
   box-sizing: border-box;
+
 }
 
 body {
@@ -13,7 +14,7 @@ body {
   font-family: "Orbitron";
   width: 100%;
   min-height: 100vh;
-  
+  font-size: 62.5%;
 }
 
 h1,h2{
