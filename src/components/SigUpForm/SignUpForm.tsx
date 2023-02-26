@@ -42,7 +42,7 @@ const SignUpForm = (): JSX.Element => {
       <label htmlFor="image" className="register-form__section">
         Profile image
         <input
-          type="image"
+          type="file"
           aria-label="Profile image"
           className="register-form__input"
         />

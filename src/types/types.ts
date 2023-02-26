@@ -26,5 +26,4 @@ export interface CustomTokenPayload extends JwtPayload {
 
 export enum Routes {
   login = "/login",
-  register = "/register",
 }
