@@ -16,6 +16,7 @@ const LoginFormStyled = styled.form`
       flex-direction: column;
       gap: 10px;
       font-weight: 800;
+      font-size: 1rem;
     }
 
     &__input {
@@ -38,6 +39,7 @@ const LoginFormStyled = styled.form`
     gap: 20px;
     align-items: center;
     justify-content: center;
+    font-size: 1rem;
 
     &__link {
       font-weight: 800;

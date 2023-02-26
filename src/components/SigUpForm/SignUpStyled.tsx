@@ -16,6 +16,7 @@ const SignUpStyled = styled.form`
       flex-direction: column;
       gap: 10px;
       font-weight: 800;
+      font-size: 1rem;
     }
 
     &__input {
