@@ -22,8 +22,12 @@ const usersSlice = createSlice({
       id: action.payload.id,
       isLogged: true,
     }),
+    logoutUser: (): UserStructure => ({ ...initialState }),
   },
 });
 
-export const { loginUser: loginUserActionCreator } = usersSlice.actions;
+export const {
+  loginUser: loginUserActionCreator,
+  logoutUser: logoutUserActioCreator,
+} = usersSlice.actions;
 export const usersReducer = usersSlice.reducer;
