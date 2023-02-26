@@ -28,6 +28,6 @@ const usersSlice = createSlice({
 
 export const {
   loginUser: loginUserActionCreator,
-  logoutUser: logoutUserActioCreator,
+  logoutUser: logoutUserActionCreator,
 } = usersSlice.actions;
 export const usersReducer = usersSlice.reducer;
