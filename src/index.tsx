@@ -2,8 +2,9 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 import { store } from "./store";
-import App from "./components/App/App";
+import { RouterProvider } from "react-router-dom";
 import GlobalStyles from "./styles/GlobalSyles";
+import router from "./routers/routes";
 
 const container = document.getElementById("root")!;
 const root = createRoot(container);
@@ -12,7 +13,7 @@ root.render(
   <React.StrictMode>
     <GlobalStyles />
     <Provider store={store}>
-      <App />
+      <RouterProvider router={router} />
     </Provider>
   </React.StrictMode>
 );

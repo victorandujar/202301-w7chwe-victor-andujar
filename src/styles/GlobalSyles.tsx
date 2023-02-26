@@ -34,7 +34,11 @@ button{
   border: none;
   cursor: pointer;
   font-family: inherit;
-  
+
+}
+
+a, :visited, :active{
+text-decoration: none;
 }
 `;
 
