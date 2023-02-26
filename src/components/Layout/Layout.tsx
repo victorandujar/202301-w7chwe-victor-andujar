@@ -8,8 +8,8 @@ const Layout = (): JSX.Element => {
         <h1 className="main-header__title">Antisocial club</h1>
         <nav className="header__nav-bar nav-bar">
           <div className="nav-bar__element">
-            <Link to="/sign-in" className="nav-bar__icon">
-              <span className="nav-bar__text">Sign in</span>
+            <Link to="/sign-up" className="nav-bar__icon">
+              <span className="nav-bar__text">Sign up</span>
             </Link>
           </div>
           <div className="nav-bar__element">
