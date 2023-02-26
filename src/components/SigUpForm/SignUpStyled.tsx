@@ -6,8 +6,8 @@ const SignUpStyled = styled.form`
   gap: 20px;
   background-color: #ededed;
   padding: 30px;
-  border-radius: 5px;
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+  border-radius: 10px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 
   .register-form {

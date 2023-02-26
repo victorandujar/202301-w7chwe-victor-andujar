@@ -2,7 +2,7 @@ import { UserState, UserStructure } from "../../types/types";
 import {
   loginUserActionCreator,
   logoutUserActionCreator,
-  usersReducer,
+  userReducer,
 } from "./usersSlice";
 
 const initialState: UserStructure = {
@@ -29,7 +29,7 @@ describe("Guven a usersReducer", () => {
   describe("When it receives a new user state and the action to log in", () => {
     test("Then it should return the user state changed with the property isLogged set as true", () => {
       const loginUserAction = loginUserActionCreator(user);
-      const newUserState = usersReducer(initialState, loginUserAction);
+      const newUserState = userReducer(initialState, loginUserAction);
 
       expect(newUserState).toStrictEqual(expectedUser);
     });
@@ -38,7 +38,7 @@ describe("Guven a usersReducer", () => {
   describe("When it receives a new user state and the action to log out", () => {
     test("Then it should return the user state changed with the property isLogged set as false", () => {
       const logoutUserAction = logoutUserActionCreator();
-      const newUserState = usersReducer(expectedUser, logoutUserAction);
+      const newUserState = userReducer(expectedUser, logoutUserAction);
 
       expect(newUserState).toStrictEqual(initialState);
     });
