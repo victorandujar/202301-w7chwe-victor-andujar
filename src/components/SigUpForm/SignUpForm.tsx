@@ -5,23 +5,39 @@ const SignUpForm = (): JSX.Element => {
     <SignUpStyled className="register-form">
       <label htmlFor="name" className="register-form__section">
         Name
-        <input type="text" className="register-form__input" />
+        <input type="text" aria-label="name" className="register-form__input" />
       </label>
       <label htmlFor="email" className="register-form__section">
         Email
-        <input type="text" className="register-form__input" />
+        <input
+          type="text"
+          aria-label="email"
+          className="register-form__input"
+        />
       </label>
       <label htmlFor="phoneNumber" className="register-form__section">
         Phone number
-        <input type="text" className="register-form__input" />
+        <input
+          type="text"
+          aria-label="Phone number"
+          className="register-form__input"
+        />
       </label>
       <label htmlFor="username" className="register-form__section">
         Username
-        <input type="text" className="register-form__input" />
+        <input
+          type="text"
+          aria-label="username"
+          className="register-form__input"
+        />
       </label>
       <label htmlFor="password" className="register-form__section">
         Password
-        <input type="text" className="register-form__input" />
+        <input
+          type="text"
+          aria-label="password"
+          className="register-form__input"
+        />
       </label>
       <label htmlFor="image" className="register-form__section">
         Profile image

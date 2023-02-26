@@ -15,6 +15,7 @@ body {
   width: 100%;
   min-height: 100vh;
   font-size: 62.5%;
+  margin: 0;
 }
 
 h1,h2{

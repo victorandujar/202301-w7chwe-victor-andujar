@@ -5,7 +5,7 @@ import App from "./App";
 describe("Given an App component", () => {
   describe("When it is rendered", () => {
     test("Then it should show a nav bar with a Link text 'Sign in'", () => {
-      const linkText = "Sign in";
+      const linkText = "Sign up";
 
       render(<App />, { wrapper: BrowserRouter });
 
