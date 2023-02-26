@@ -9,7 +9,7 @@ const initialState: UserStructure = {
 };
 
 const usersSlice = createSlice({
-  name: "users",
+  name: "user",
   initialState,
   reducers: {
     loginUser: (
@@ -30,4 +30,4 @@ export const {
   loginUser: loginUserActionCreator,
   logoutUser: logoutUserActionCreator,
 } = usersSlice.actions;
-export const usersReducer = usersSlice.reducer;
+export const userReducer = usersSlice.reducer;
