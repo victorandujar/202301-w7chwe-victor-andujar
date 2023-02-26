@@ -18,8 +18,8 @@ const Layout = (): JSX.Element => {
             </Link>
           </div>
         </nav>
+        <Outlet />
       </LayoutStyled>
-      <Outlet />
     </>
   );
 };
