@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SignUpStyled = styled.form`
+const LoginFormStyled = styled.form`
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -10,7 +10,7 @@ const SignUpStyled = styled.form`
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 
-  .register-form {
+  .login-form {
     &__section {
       display: flex;
       flex-direction: column;
@@ -19,11 +19,10 @@ const SignUpStyled = styled.form`
     }
 
     &__input {
+      height: 1.8rem;
       border: 1px solid black;
       border-radius: 5px;
-      height: 1.8rem;
       padding: 0 6px;
-      font-family: inherit;
     }
 
     &__button {
@@ -33,6 +32,18 @@ const SignUpStyled = styled.form`
       border-radius: 5px;
     }
   }
+
+  .footer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    &__link {
+      font-weight: 800;
+      color: #000;
+    }
+  }
 `;
 
-export default SignUpStyled;
+export default LoginFormStyled;
