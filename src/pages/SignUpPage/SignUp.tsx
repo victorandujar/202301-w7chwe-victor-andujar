@@ -1,7 +1,7 @@
 import SignUpForm from "../../components/SigUpForm/SignUpForm";
 import SignUpStyled from "./SignUpStyled";
 
-const SignUp = (): JSX.Element => {
+const SignUpPage = (): JSX.Element => {
   return (
     <SignUpStyled>
       <SignUpForm />
@@ -9,4 +9,4 @@ const SignUp = (): JSX.Element => {
   );
 };
 
-export default SignUp;
+export default SignUpPage;
